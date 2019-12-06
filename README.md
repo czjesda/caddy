@@ -1,7 +1,9 @@
 一、常用軟件包
+
 apt-get -y update && apt-get -y install unzip zip wget curl  nano sudo ufw socat ntp ntpdate gcc git vim
 
 二、安裝Caddy
+
 安裝主文件
 curl https://getcaddy.com | bash -s personal
 
