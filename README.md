@@ -27,17 +27,6 @@ chown -R www-data:www-data /var/www
 touch /etc/caddy/Caddyfile
 nano /etc/caddy/Caddyfile
 
-https://www.cityjw.gq {
-  root /var/www/html
- timeouts none
- tls czjesda@gmail.com
- gzip
- proxy /j5566w/ 127.0.0.1:25566 {
-  websocket
-  header_upstream -Origin
-  }
-}
-
 chown root:root /etc/caddy/Caddyfile
 chmod 644 /etc/caddy/Caddyfile
 
