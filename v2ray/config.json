@@ -1,14 +1,14 @@
 {
   "inbounds": [
     {
-    "port":15174,
+    "port":xxx,
       "listen": "127.0.0.1", 
       "tag": "vmess-in", 
       "protocol": "vmess", 
       "settings": {
         "clients": [
           {
-	  "id":"a4f48006-c4e5-4bc1-bd9a-4b2392a702cb",
+	  "id":"UUID网站上生成",
 	  "alterId":64
           }
         ]
@@ -16,7 +16,7 @@
       "streamSettings": {
         "network": "ws", 
         "wsSettings": {
-	  "path":"/29616bbc/"
+	  "path":"/v2ray/"
         }
       }
     }
