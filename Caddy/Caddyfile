@@ -1,9 +1,9 @@
-https://xx009.ml {
+https://domain.com {  #domain.com输入网址
   root /var/www/html
  timeouts none
- tls mXXXXXXXX@gmail.com
+ tls XXX@gmail.com  #输入邮箱
  gzip
- proxy /29616bbc 127.0.0.1:15174 {
+ proxy /v2ray/ 127.0.0.1:xxxxx {  #输入v2ray的端口号
   websocket
   header_upstream -Origin
   }
